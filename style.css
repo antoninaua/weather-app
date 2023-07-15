@@ -1,0 +1,109 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background: rgb(238,227,232);
+    background: radial-gradient(circle, rgba(238,227,232,0.2) 0%, rgba(222,219,216,0.3) 100%);
+
+}
+
+#header {
+    display: flex;
+    
+}
+
+#input {
+    background: none;
+    padding: 9px;
+    border: 1px solid #393E46;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Crimson Text', serif;
+    margin-top: 30px;
+}
+
+#input:focus {
+    background-color: #EEEEEE;
+}
+
+#whereWhen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #393E46;
+    margin: 0;
+    background: rgb(145,139,142);
+    background: radial-gradient(circle, rgba(145,139,142,0.2) 0%, rgba(235,229,222,0.2) 100%);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#parWhere {
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+    margin-top: 30px;
+    text-shadow: 2px 1px 1px #EEEEEE;
+}
+
+#parWhen {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 1px 1px 1px #EEEEEE;
+}
+
+#temperatureContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#temperature {
+    margin: 0;
+    font-size: 70px;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 1px #EEEEEE;
+    color: #393E46;
+}
+
+#wheatherConditions {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #EEEEEE;
+}
+
+#skyContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#temperatureFeels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: rgb(145,139,142);
+    background: radial-gradient(circle, rgba(145,139,142,0.2) 0%, rgba(235,229,222,0.2) 100%);
+    border-radius: 20px;
+}
+
+#feelsLike, #minMax {
+    margin: 0;
+}
+
+
+
